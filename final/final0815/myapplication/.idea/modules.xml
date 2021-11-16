@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1231743451/SemiFinal.iml" filepath="$PROJECT_DIR$/.idea/modules/1231743451/SemiFinal.iml" group="SemiFinal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1676893165/app.iml" filepath="$PROJECT_DIR$/.idea/modules/1676893165/app.iml" group="SemiFinal/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1260927604/detail_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1260927604/detail_test.iml" group="SemiFinal/detail_test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/444401746/list.iml" filepath="$PROJECT_DIR$/.idea/modules/444401746/list.iml" group="SemiFinal/list" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication.iml" group="SemiFinal/myapplication" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1106781431/servertest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1106781431/servertest.iml" group="SemiFinal/servertest" />
+    </modules>
+  </component>
+</project>

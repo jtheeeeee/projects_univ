@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/cat_or_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cat_or_dog"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="origin"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/food_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="food_sort"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

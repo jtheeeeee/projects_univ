@@ -1,0 +1,708 @@
+@charset "utf-8";
+#wrap {
+	width: 1900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu {
+	float: left;
+	width: 390px;
+	height: 4000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #f5f5f5;
+}
+#right {
+	float: right;
+	width: 1510px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#logo {
+	float: right;
+	height: 270px;
+	width: 1510px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#switch {
+	height: 725px;
+	width: 1510px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-top: auto;
+}
+#banner_set {
+	height: 250px;
+	width: 1436px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.product {
+	float: right;
+	width: 1510px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+
+.product_banner {
+	float: right;
+	height: 245px;
+	width: 1510px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.product_content {
+	float: right;
+	width: 1510px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+
+#footer {
+	float: right;
+	height: 10px;
+	width: 1510px;
+	margin-top: 200px;
+}
+#m1 {
+	height: 53px;
+	width: 390px;
+}
+
+#m2 {
+	height: 23px;
+	width: 390px;
+}
+#m3 {
+	float: left;
+	height: 23px;
+	width: 212px;
+}
+#login {
+	float: left;
+	height: 23px;
+	width: 54px;
+}
+#join {
+	float: right;
+	height: 23px;
+	width: 124px;
+}
+#m4 {
+	float: left;
+	height: 30px;
+	width: 390px;
+}
+#m5 {
+	float: left;
+	height: 30px;
+	width: 213px;
+}
+#shoppingbag {
+	float: left;
+	height: 30px;
+	width: 106px;
+}
+#m6 {
+	height: 26px;
+	width: 390px;
+}
+#m7 {
+	float: left;
+	height: 26px;
+	width: 195px;
+}
+#mypage {
+	float: left;
+	height: 26px;
+	width: 68px;
+}
+#home {
+	float: left;
+	height: 26px;
+	width: 127px;
+}
+#search {
+	float: left;
+	height: 70px;
+	width: 390px;
+}
+#best {
+	float: left;
+	height: 46px;
+	width: 390px;
+}
+#outer {
+	float: left;
+	height: 53px;
+	width: 390px;
+}
+#top {
+	float: left;
+	height: 49px;
+	width: 390px;
+}
+#skirt {
+	float: left;
+	height: 49px;
+	width: 390px;
+}
+#pants {
+	float: left;
+	height: 56px;
+	width: 390px;
+}
+#dress {
+	float: left;
+	height: 47px;
+	width: 390px;
+}
+
+#notice {
+	float: left;
+	height: 41px;
+	width: 390px;
+}
+#qna {
+	float: left;
+	height: 48px;
+	width: 390px;
+}
+#review {
+	float: left;
+	height: 51px;
+	width: 390px;
+}
+
+#line1 {
+	float: left;
+	height: 24px;
+	width: 390px;
+}
+#line2 {
+	float: left;
+	height: 43px;
+	width: 390px;
+}
+.content {
+	float: left;
+	height: 508px;
+	width: 340px;
+	margin-right: 18px;
+	margin-left: 18px;
+	margin-bottom: 36px;
+}
+#product_detail {
+	float: left;
+	height: 870px;
+	width: 1510px;
+}
+#product_focus {
+	float: left;
+	height: auto;
+	width: 1510px;
+}
+#product_image {
+	float: left;
+	height: 660px;
+	width: 560px;
+	margin-top: 30px;
+	margin-right: 150px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+}
+#detail {
+	float: left;
+	height: 280px;
+	width: 497px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#choice {
+	height: 141px;
+	width: 348px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+#shoppingtip {
+	float: left;
+	height: 136px;
+	width: 497px;
+	margin-top: 50px;
+}
+#buy {
+	float: left;
+	height: 141px;
+	width: 118px;
+}
+#cart {
+	float: left;
+	height: 141px;
+	width: 118px;
+	background-image: url(image/cart.png);
+}
+
+
+#product_name {
+	float: left;
+	height: 71px;
+	width: 497px;
+}
+#p1 {
+	float: left;
+	height: 42px;
+	width: 497px;
+}
+#p2 {
+	float: left;
+	height: 42px;
+	width: 497px;
+}
+#p3 {
+	float: left;
+	height: 40px;
+	width: 497px;
+}
+#p4 {
+	float: left;
+	height: 39px;
+	width: 497px;
+}
+#p5 {
+	float: left;
+	height: 46px;
+	width: 497px;
+}
+#product_code {
+	float: left;
+	height: 42px;
+	width: 142px;
+}
+#code {
+	float: left;
+	height: 42px;
+	width: 355px;
+}
+#product_price {
+	float: left;
+	height: 42px;
+	width: 142px;
+}
+#price {
+	float: left;
+	height: 42px;
+	width: 355px;
+}
+#product_color {
+	float: left;
+	height: 40px;
+	width: 142px;
+}
+#color {
+	float: left;
+	height: 40px;
+	width: 355px;
+}
+#product_quantity {
+	float: left;
+	height: 39px;
+	width: 142px;
+}
+#quantity {
+	float: left;
+	height: 39px;
+	width: 355px;
+}
+#product_totalprice {
+	float: left;
+	height: 46px;
+	width: 142px;
+}
+#totalprice {
+	background-image: url(image/detail/detail_11.png);
+	float: left;
+	height: 46px;
+	width: 355px;
+}
+#stip_logo {
+	float: left;
+	height: 45px;
+	width: 497px;
+}
+#stip_content {
+	float: left;
+	height: 91px;
+	width: 497px;
+	background-image: url(image/shoppingtip_02.png);
+}
+#loginFormTable {
+	text-align: center;
+}
+#loginFromTop {
+	text-align: center;
+}
+
+#loginFormTable2 {
+	text-align: center;
+}
+#loginLeft {
+	float: left;
+	height: auto;
+	width: 498px;
+}
+#loginCenter {
+	float: left;
+	height: 17.5cm;
+	width: 514px;
+	margin-top: 70px;
+}
+#center1 {
+	height: 209px;
+	width: 514px;
+}
+#center2 {
+	height: 75px;
+	width: 390px;
+	float: left;
+}
+#center3 {
+	float: left;
+	height: 75px;
+	width: 124px;
+	background-image: url(image/login_06.png);
+}
+#center4 {
+	float: left;
+	height: 30px;
+	width: 118px;
+}
+#center5 {
+	height: 30px;
+	width: 59px;
+	float: left;
+}
+#center6 {
+	float: left;
+	height: 30px;
+	width: 330px;
+}
+#center6 {
+	float: left;
+	height: 30px;
+	width: 337px;
+}
+#center456 {
+	float: left;
+	height: 30px;
+	width: 514px;
+}
+#center789 {
+	float: left;
+	height: 23px;
+	width: 514px;
+}
+#center7 {
+	float: left;
+	height: 23px;
+	width: 118px;
+}
+#center8 {
+	float: left;
+	height: 23px;
+	width: 157px;
+}
+#center9 {
+	float: left;
+	height: 23px;
+	width: 239px;
+}
+#center10 {
+	float: left;
+	height: 159px;
+	width: 514px;
+}
+#center21 {
+	height: 39px;
+	width: 390px;
+}
+#center22 {
+	height: 36px;
+	width: 390px;
+}
+#loginRight {
+	height: auto;
+	width: 498px;
+	float: left;
+}
+#center21left {
+	float: left;
+	height: 39px;
+	width: 159px;
+}
+#center21right {
+	float: left;
+	height: 39px;
+	width: 231px;
+	background-image: url(image/login2_08.png);
+}
+#center22left {
+	float: left;
+	height: 36px;
+	width: 159px;
+}
+#center22right {
+	float: left;
+	height: 36px;
+	width: 231px;
+	background-image: url(image/login2_11.png);
+}
+#wrap #right #loginMain #loginCenter #center2 #center21 #center21right input {
+	background-color: #FFFFFF;
+	margin-top: 11px;
+	border: thin none #FFF;
+	height: 0.4cm;
+}
+#wrap #right #loginMain #loginCenter #center2 #center22 #center22right #userId {
+	margin-top: 7.5px;
+	border: thin none #FFF;
+}
+		body {
+		background-color: #fff;
+    	margin: 0;
+	}
+	div.container {
+		margin: 0 auto 0;
+    	width: 600px;
+	}
+	p.title {
+	margin-top: 300px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color: #fcc9d2;
+	font-family: "Microsoft Himalaya";
+	}
+	
+	.form-area table {
+		background-color: #FFF;
+    	border: 1px solid #dadada;
+		margin-bottom: 15px;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	.form-area table:last-child {
+		margin-bottom: 0;
+	}
+	.form-area table tr td {
+		border-bottom: 1px solid #f0f0f0;
+    	padding: 5px 10px;
+	}
+	.form-area table tr:last-child td {
+		border-bottom: 1px solid #dadada;
+	}
+	.input-text {
+		border: none;
+		height: 30px;
+		padding: 2px 0px;
+		width: 100%;
+		font-size: 14px;
+	}
+.input-text-email {
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	width: 180px;
+	font-size: 14px;
+}
+
+	.input-text.birth {
+		width: 180px;
+	}
+	.form-area table tr td select {
+		width: 180px;
+		border: none;
+		height: 30px;
+		padding: 2px 0px;
+		font-size: 14px;
+	}
+	.form-area table tr td .alert {
+		color: #ef0003;
+		font-size: 12px;
+		margin: 5px 0;
+		display: none;
+	}
+	
+	.button-area {
+		text-align: center;
+		padding: 10px 0;
+	}
+.btn-type-01 {
+	display: inline-block;
+	width: 100%;
+	font-size: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 55px;
+	text-decoration: none;
+	border-radius: 0;
+	background-color: #fcc9d2;
+	color: #FFF;
+	font-family: "Microsoft Himalaya";
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	}
+
+.buttonLogin {
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft Himalaya";
+	background-color: #FFF;
+	margin-top: 25px;
+	font-size: 23px;
+	color: #878787;
+	margin-left: 11.5px;
+	border: 0px none #FFF;
+}
+
+.buy {
+	background-image: url(image/buy.png);
+	float: left;
+	height: 141px;
+	width: 118px;
+}
+.cart {
+	background-image: url(image/cart.png);
+	float: left;
+	height: 141px;
+	width: 118px;
+}
+#searchTop {
+	height: 28px;
+	width: 390px;
+}
+
+#search {
+	padding: 0px;
+	float: left;
+	height: 28px;
+	width: 81px;
+	font-family: "맑은 고딕";
+	background-color: #F5F5F5;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+.imgmenu{
+ width:1510px;
+ clear:both;
+ float:left;
+}
+.imgmenu ul {
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+}
+.imgmenu ul li a{
+ display: block;
+ float: left;
+ width: 33%;
+ height: 22px;
+ font-size: 10pt;
+ color: #000000;
+ background-color: #F5F5F5;
+ font-weight: bold;
+ text-align: center;
+ text-decoration: none;
+ border-left-width: 1px;
+ border-left-style: solid;
+ border-left-color: #FFF;
+}
+.imgmenu ul li a:hover {
+ background-color:#F5F5F5;
+}
+
+.imgmenu:after {
+ content:'';
+ display:block;
+ clear:both;
+}
+.imgmenu ul .imgmenusize a {
+ width: 336px;
+}
+
+.item {
+ float: left;
+ height: 558px;
+ width: 340px;
+ margin-bottom: 36px;
+ margin-left: 18px;
+ margin-right: 18px;
+}
+
+.itemName {
+ float: left;
+ height: 50px;
+ width: 340px;
+ margin-bottom: 36px;
+ margin-left: 18px;
+ margin-right: 18px;
+ text-align: center;
+} 
+.notice {
+ float: left;
+ height: auto;
+ width: 800px;
+ margin-right: auto;
+ margin-left: auto;
+} 
+.product_content12 {
+ float: right;
+ width: 800px;
+ margin-right: 345px;
+ margin-bottom: 30px;
+ margin-left: 375px;
+} 
+
+.gotoMainForm {
+	height: auto;
+	width: 810px;
+	margin-right: auto;
+	margin-left: 70px;
+}
+#formInsert {
+	float: left;
+	width: 1510px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 70px;
+	padding-right: 300px;
+	padding-bottom: 150px;
+	padding-left: 150px;
+}

@@ -1,0 +1,6 @@
+include ':myapplication'
+include ':servertest'
+include ':list'
+include ':detail_test'
+include ':app'
+rootProject.name = "SemiFinal"

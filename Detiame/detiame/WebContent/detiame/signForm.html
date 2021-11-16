@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>무제 문서</title>
+<link href="design.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('image/mmenu_03.png','image/mmenu_04.png','image/mmenu_09.png','image/mmenu_10.png','image/mmenu_12.png','image/mmenu_13.png','image/mmenu_14.png','image/mmenu_15.png','image/mmenu_16.png','image/mmenu_17.png','image/mmenu_19.png','image/mmenu_20.png','image/mmenu_21.png','image/mmenu_006.png')">
+<style type="text/css">
+#menuback {
+	background-image: url(image/menu_02.png);
+	background-repeat: repeat-y;
+	width: 390px;
+}
+#searchTop {
+	height: 28px;
+	width: 390px;
+}
+#searchbottom {
+	height: 42px;
+	width: 390px;
+}
+#topleft {
+	float: left;
+	height: 28px;
+	width: 106px;
+}
+#topcenter {
+	float: left;
+	height: 28px;
+	width: 81px;
+}
+#topright {
+	height: 28px;
+	width: 203px;
+	float: left;
+}
+#bottomleft {
+	float: left;
+	height: 42px;
+	width: 106px;
+}
+#bottomcenter {
+	float: left;
+	height: 42px;
+	width: 81px;
+}
+#bottomright {
+	float: right;
+	height: 42px;
+	width: 203px;
+}
+#search {
+	padding: 0px;
+	float: left;
+	height: 28px;
+	width: 81px;
+	font-family: "맑은 고딕";
+	background-color: #F5F5F5;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#searchdiv {
+	height: 70px;
+	width: 390px;
+	float: left;
+}
+#bcbottom {
+	float: left;
+	height: 13px;
+	width: 81px;
+}
+#bctop {
+	background-image: url(image/2search_05.png);
+	float: left;
+	height: 29px;
+	width: 81px;
+}
+#searchbutton {
+	background-image: url(image/3search_06.png);
+	float: left;
+	height: 42px;
+	width: 42px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+</style>
+<div id="wrap">
+  <div id="menu">
+    <div id="m1"><img src="image/menu_01.png" width="390" height="53" /></div>
+    <div id="m2">
+      <div id="m3"></div>
+      <div id="login">
+       <a href="loginForm.html">
+        <img src="image/menu_03.png" name="login" width="54" height="23" id="login" onmouseover="MM_swapImage('login','','image/mmenu_03.png',1)" onmouseout="MM_swapImgRestore()" />
+       </a>
+       </div>
+      <div id="join">
+       <a href="signForm.html">
+        <img src="image/menu_04.png" name="join" width="124" height="23" id="join" onmouseover="MM_swapImage('join','','image/mmenu_04.png',1)" onmouseout="MM_swapImgRestore()" />
+       </a>
+      </div>
+      <div id="m4">
+        <div id="m5"></div>
+        <div id="shoppingbag">
+         <a href="shoppingBag.jsp">
+          <img src="image/menu_06.png" name="shoppingbag" width="106" height="30" id="shoppingbag" onmouseover="MM_swapImage('shoppingbag','','image/mmenu_006.png',1)" onmouseout="MM_swapImgRestore()" />
+         </a> 
+        </div>
+      </div>
+      <div id="m6">
+        <div id="m7"></div>
+        <div id="mypage">
+         
+        </div>
+        <div id="home">
+         <a href="mainPage.jsp">
+          <img src="image/menu_10.png" name="home" width="127" height="26" id="home" onmouseover="MM_swapImage('home','','image/mmenu_10.png',1)" onmouseout="MM_swapImgRestore()" />
+         </a> 
+        </div>
+      </div>
+    </div>
+     <form id="form1" name="form1" method="post" action="searchNoLogin.jsp">
+    <div id="searchdiv">
+      <div id="searchTop">
+        <div id="topleft"><img src="image/1search_01.png" width="106" height="28" /></div>
+        <div id="topcenter"><img src="image/1search_02.png" width="81" height="28" /></div>
+        <div id="topright"><img src="image/1search_03.png" width="203" height="28" /></div>      
+      </div>
+      <div id="searchbottom">
+        <div id="bottomleft"><img src="image/1search_04.png" width="106" height="42" /></div>
+      	<div id="bottomcenter">
+      	<div id="bctop">
+      	  
+      	    <label for="search"></label>
+      	    <input type="text" name="search" id="search" />
+    	    
+      	</div>  
+        <div id="bcbottom"><img src="image/2search_07.png" width="81" height="13" />
+        </div>
+      	</div>
+      	<div id="bottomright">
+      	   <input type="submit" name="submit" id="searchbutton" value="" />
+      	  <div id="brright"><img src="image/3search_07.png" width="161" height="42" /></div>
+     	
+      	</div>
+        
+      </div>
+      
+    </div>
+    </form>
+    <div id="best">
+     <a href="category2NoLogin.jsp">
+      <img src="menu_12.png" name="All" width="390" height="46" id="All" onmouseover="MM_swapImage('All','','mmenu_12.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="outer">
+     <a href="categoryType6NoLogin.jsp">
+      <img src="image/menu_13.png" name="outer" width="390" height="53" id="outer" onmouseover="MM_swapImage('outer','','image/mmenu_13.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>  
+    </div>    
+    <div id="top">
+     <a href="categoryType7NoLogin.jsp">
+      <img src="image/menu_14.png" name="top" width="390" height="49" id="top" onmouseover="MM_swapImage('top','','image/mmenu_14.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="skirt">
+     <a href="categoryType8NoLogin.jsp">
+      <img src="image/menu_15.png" name="skirt" width="390" height="49" id="skirt" onmouseover="MM_swapImage('skirt','','image/mmenu_15.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="pants">
+     <a href="categoryType9NoLogin.jsp">
+      <img src="image/menu_16.png" name="pants" width="390" height="56" id="pants" onmouseover="MM_swapImage('pants','','image/mmenu_16.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="dress">
+      <a href="categoryType10NoLogin.jsp">
+      <img src="image/menu_17.png" name="dress" width="390" height="47" id="dress" onmouseover="MM_swapImage('dress','','image/mmenu_17.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+     </a>
+    </div>
+    <div id="line1"><img src="image/menu_18.png" width="390" height="24" /></div>
+   
+
+    <div id="notice">
+     <a href="noticeMain.jsp"> 
+      <img src="image/menu_19.png" name="notice" width="390" height="41" id="notice" onmouseover="MM_swapImage('notice','','image/mmenu_19.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="qna">
+     <a href="qna2.jsp">
+      <img src="image/menu_20.png" name="qna" width="390" height="48" id="qna" onmouseover="MM_swapImage('qna','','image/mmenu_20.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="review">
+     <a href="reviewMain.jsp">
+      <img src="image/menu_21.png" name="review" width="390" height="51" id="review" onmouseover="MM_swapImage('review','','image/mmenu_21.png',1)" onmouseout="MM_swapImgRestore()" />
+     </a>
+    </div>
+    <div id="line2"><img src="image/menu_22.png" width="390" height="43" /></div>
+  </div>
+  <div id="right">
+    <div id="logo"><img src="image/logo.png" width="1510" height="270" /></div>
+   	<div class="container">
+   	  <p class="title">Join</p>
+		<div class="form-area">
+			<!-- ID, PWD -->
+			<form action = "signIn2.jsp" method="post">
+			<table>
+				<tr>
+					<td>
+						<span>
+							<input type="text" id="id" name="id" class="input-text" placeholder="아이디" maxlength="20" onfocusout="validateId()">
+						</span>
+						<div id="id_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>
+							<input type="password" id="password" name="password" class="input-text" placeholder="비밀번호" maxlength="20" onfocusout="validatePassword()">
+						</span>
+						<div id="password_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>
+							<input type="password" id="check_password" class="input-text" placeholder="비밀번호 재확인" maxlength="20" onfocusout="validatePassword()">
+						</span>
+						<div id="check_password_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+			</table>
+			
+			<!-- BASIC INFO -->
+			<table>
+				<tr>
+					<td>
+						<span>
+							<input type="text" id="name" name="name" class="input-text" placeholder="이름" maxlength="15" onfocusout="validateName()">
+						</span>
+						<div id="name_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+                <tr>
+					<td>
+						<span>
+							<input type="text" id="address" name="address" class="input-text" placeholder="주소" maxlength="100" onfocusout="validateAddress()">
+						</span>
+						<div id="address_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+                <tr>
+					<td>
+						<span>
+							<input type="text" id="phone" name="phone" class="input-text" placeholder="연락처" maxlength="11" onfocusout="validatePhone()">
+						</span>
+						<div id="phone_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+                <tr>
+					<td>
+						<span>
+							<input type="text" id="email_id" name="email_id" class="input-text-email" placeholder="email" maxlength="20" onfocusout="validateEmail()">
+						</span>
+						<span>
+							@
+						</span>
+						<span>
+								<select id="email_domain" name="email_domain">
+								<option value="naver">naver</option>
+								<option value="daum">daum</option>
+								<option value="google">google</option>
+								
+							</select>
+						</span>
+						<div id="email_alert" class="alert">필수 정보입니다.</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span>
+							<input type="text" id="birth_year" name="birth_year" class="input-text birth" placeholder="년(4자)" maxlength="4" onfocusout="validateBirth()">
+						</span>
+						<span>
+							<select id="birth_month" name="birth_month">
+								<option value="1">1월</option>
+								<option value="2">2월</option>
+								<option value="3">3월</option>
+								<option value="4">4월</option>
+								<option value="5">5월</option>
+								<option value="6">6월</option>
+								<option value="7">7월</option>
+								<option value="8">8월</option>
+								<option value="9">9월</option>
+								<option value="10">10월</option>
+								<option value="11">11월</option>
+								<option value="12">12월</option>
+							</select>
+						</span>
+						<span>
+							<input type="text" id="birth_day" name="birth_day" class="input-text birth" placeholder="일" maxlength="2" onfocusout="validateBirth()">
+						</span>
+						<div id="birth_alert" class="alert">태어난 년도 4자리를 정확하게 입력하세요.</div>
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="Join us" class="btn-type-01">
+		  </form>	
+	  </div>
+		
+	</div>
+    
+        <div id="footer"><img src="/detiame/detiame/image/footer.png"/></div>
+      
+  </div>  
+</div>
+<script type="text/javascript">
+	
+	function validateId() {
+		var id = document.getElementById('id').value.trim();
+		var alertEl = document.getElementById('id_alert');
+		
+		// 입력 여부 검증
+		if (id.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 길이 검증
+		if (id.length < 5) {
+			alertEl.innerHTML = '아이디는 5글자 이상 입력해주세요.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 대소문자, 숫자 입력 검증
+		if (!/^[A-Za-z0-9]*$/.test(id)) {
+			alertEl.innerHTML = '아이디는 영문 대문자,소문자, 숫자만 입력 가능합니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+	}
+	
+	function validatePassword() {
+		var password = document.getElementById('password').value.trim();
+		var cPassword = document.getElementById('check_password').value.trim();
+		var alertEl = document.getElementById('password_alert');
+		var cAlertEl = document.getElementById('check_password_alert');
+		
+		// 비밀번호 입력 여부 검증
+		if (password.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호 길이 검증
+		if (password.length < 5) {
+			alertEl.innerHTML = '비밀번호는 5글자 이상 입력해주세요.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호 대소문자, 숫자 입력 검증
+		if (!/^[A-Za-z0-9]*$/.test(password)) {
+			alertEl.innerHTML = '비밀번호는 영문 대문자,소문자, 숫자만 입력 가능합니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호 확인 입력 여부 검증
+		if (cPassword.length == 0) {
+			cAlertEl.innerHTML = '필수 정보입니다.';
+			cAlertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호 확인 길이 검증
+		if (cPassword.length < 5) {
+			cAlertEl.innerHTML = '비밀번호는 5글자 이상 입력해주세요.';
+			cAlertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호 확인 대소문자, 숫자 입력 검증
+		if (!/^[A-Za-z0-9]*$/.test(cPassword)) {
+			cAlertEl.innerHTML = '비밀번호는 영문 대문자,소문자, 숫자만 입력 가능합니다.';
+			cAlertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		// 비밀번호, 비밀번호 확인 검증
+		if (password != cPassword) {
+			cAlertEl.innerHTML = '비밀번호가 일치하지 않습니다.';
+			cAlertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+		cAlertEl.style.display = 'none';
+	}
+	
+	function validateName() {
+		var name = document.getElementById('name').value.trim();
+		var alertEl = document.getElementById('name_alert');
+		
+		// 입력 여부 검증
+		if (name.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+	}
+	function validateAddress() {
+		var address = document.getElementById('address').value.trim();
+		var alertEl = document.getElementById('address_alert');
+		
+		// 입력 여부 검증
+		if (address.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+	}
+	function validatePhone() {
+		var phone = document.getElementById('phone').value.trim();
+		var alertEl = document.getElementById('phone_alert');
+		
+		// 입력 여부 검증
+		if (phone.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+	}
+	
+	function validateBirth() {
+		var birthYear = document.getElementById('birth_year').value.trim();
+		var birthDay = document.getElementById('birth_day').value.trim();
+		var alertEl = document.getElementById('birth_alert');
+		
+		if (birthYear.length == 0) {
+			alertEl.innerHTML = '태어난 년도 4자리를 입력해주세요.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		if (birthDay.length == 0) {
+			alertEl.innerHTML = '태어난 일자를 입력해주세요.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+		
+		if (!/^[0-9]*$/.test(birthYear)) {
+			birth_alert.innerHTML = '태어난 년도는 숫자만 입력 가능합니다.';
+			birth_alert.style.display = 'block';
+			
+			return false;
+		}
+		
+		if (!/^[0-9]*$/.test(birthDay)) {
+			birth_alert.innerHTML = '태어난 일자는 숫자만 입력 가능합니다.';
+			birth_alert.style.display = 'block';
+			
+			return false;
+		}
+		
+		alertEl.style.display = 'none';
+	}
+	function validateEmail() {
+		var email_id = document.getElementById('email_id').value.trim();
+		var alertEl = document.getElementById('email_alert');
+		
+		// 입력 여부 검증
+		if (email_id.length == 0) {
+			alertEl.innerHTML = '필수 정보입니다.';
+			alertEl.style.display = 'block';
+			
+			return false;
+		}
+
+		alertEl.style.display = 'none';
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,449 @@
+@charset "utf-8";
+#bgcolor {
+	float: none;
+	height: 107px;
+	width: 921px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(image/mypage/mypage_06.png);
+	background-repeat: repeat-x;
+}
+#bg {
+	float: left;
+	height: 107px;
+	width: 1510px;
+}
+#sbag {
+	float: left;
+	height: 43px;
+	width: 142px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 177px;
+}
+#orderList {
+	float: left;
+	height: 43px;
+	width: 106px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+#qnalist {
+	float: left;
+	height: 43px;
+	width: 106px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+#myInfoModify {
+	float: left;
+	height: 43px;
+	width: 97px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+#deleteId {
+	float: left;
+	height: 43px;
+	width: 116px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-right: 177px;
+}
+#tabpanelbg {
+	float: left;
+	height: auto;
+	width: 1510px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#tabpanel {
+	width: 921px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#pwConfirmbg {
+	height: auto;
+	width: 673px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#pwConfirm {
+	float: none;
+	height: auto;
+	width: 673px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content {
+	width: 921px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align: justify;
+}
+#wrap #tabpanelbg #content table tr td #form1 #cancle {
+	text-align: center;
+}
+#infoImage {
+	height: 275px;
+	width: 673px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+div.container {
+		margin: 0 auto 0;
+    	width: 623px;
+}
+p.title {
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		letter-spacing: -6px;
+		color: #1fbc02;
+}
+	
+.form-area table {
+	background-color: #FFF;
+    border: 1px solid #dadada;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.form-area table:last-child {
+	margin-bottom: 0;
+}
+.form-area table tr td {
+	border-bottom: 1px solid #f0f0f0;
+    padding: 5px 10px;
+}
+.form-area table tr:last-child td {
+	border-bottom: 1px solid #dadada;
+}
+.input-text {
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	width: 100%;
+	font-size: 14px;
+}
+.input-text.birth {
+	width: 180px;
+}
+.form-area table tr td select {
+	width: 180px;
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	font-size: 14px;
+}
+.form-area table tr td .alert {
+	color: #ef0003;
+	font-size: 12px;
+	margin: 5px 0;
+	display: none;
+}
+	
+.button-area {
+	text-align: center;
+	padding: 10px 0;
+}
+.btn-type-01 {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 55px;
+	text-decoration: none;
+	border-radius: 0;
+	background-color: #fcc9d2;
+	color: #FFF;
+}
+#submit {
+	background-color: #fcc9d2;
+	width: 60px;
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+	height: 30px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-weight: normal;
+}
+#goToList {
+	font-family: "맑은 고딕";
+	font-size: 11pt;
+	background-color: #fcc9d2;
+	height: 40px;
+	width: 75px;
+	color: #FFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+#reset {
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	background-color: #fcc9d2;
+	height: 30px;
+	width: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFF;
+}
+table {
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+#wrap #tabpanelbg #content p {
+	text-align: left;
+	color: #000000;
+}
+#orderDetail {
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+	background-color: #fcc9d2;
+	height: 30px;
+	width: 70px;
+}
+#shippingDetail {
+	width: 70px;
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+	background-color: #fcc9d2;
+	height: 30px;
+}
+#modify {
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+	background-color: #fcc9d2;
+	height: 30px;
+	width: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#delete {
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+	background-color: #fcc9d2;
+	height: 30px;
+	width: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.buttonForm {
+	height: 30px;
+	width: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainBottom {
+	width: 921px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+#tablebg {
+	width: 820px;
+	margin-right: 0px;
+	margin-left: 70px;
+}
+
+#registerform {
+	border-top-width: 6px;
+	border-bottom-width: 0px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+input {
+	background-color: #fcc9d2;
+	height: 30px;
+	width: 60px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: "맑은 고딕";
+	font-size: 9pt;
+	color: #FFF;
+}
+textarea {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+
+
+#registerform th {
+	height: 25px;
+	padding-top: 5px;
+	padding-left: 25px;
+	width: 100px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	background-color: #e5e5e5;
+}
+#registerform tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.page_content .tablestyle {
+	float: left;
+	width: 680px;
+	text-align: center;	
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+#registerform tr .btnstyle {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#bottom1 {
+	height: auto;
+	width: 460px;
+	float: left;
+	margin-bottom: 10px;
+}
+#bottom2 {
+	float: left;
+	height: auto;
+	width: 461px;
+	margin-bottom: 10px;
+}
+#modifyBottom {
+	height: 30px;
+	width: 60px;
+	margin-left: 360px;
+}
+#submitBottom {
+	height: 30px;
+	width: 60px;
+	margin-right: 52px;
+	float: right;
+}
+#quantity {
+	float: left;
+	height: auto;
+	width: 120px;
+}
+#submit {
+	float: left;
+	height: 30px;
+	width: 60px;
+	margin-left: 20px;
+}
+#delete1 {
+	height: auto;
+	width: 700px;
+	margin-left: 70px;
+	text-align: left;
+	font-family: "맑은 고딕";
+}
+#deleteMain {
+	float: left;
+	width: 820px;
+	margin-left: 70px;
+	height: auto;
+}
+.goToMain {
+	font-family: "맑은 고딕";
+	font-size: 11pt;
+	font-weight: normal;
+	color: #FFF;
+	float: left;
+	height: 50px;
+	width: 810px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fcc9d2;
+}
+#qna1 {
+	font-family: "맑은 고딕";
+	color: #000;
+	height: auto;
+	width: 800px;
+	margin-left: 70px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+#table1 {
+	float: none;
+	height: auto;
+	width: 800px;
+	margin-right: auto;
+	margin-left: 75px;
+	margin-bottom: 10px;
+}
+.gotoMainForm {
+	height: auto;
+	width: 810px;
+	margin-right: auto;
+	margin-left: 70px;
+}
